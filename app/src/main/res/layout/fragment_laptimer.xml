@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/light_black"
+    tools:context=".lapTimer">
+
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="115dp"
+        android:text="@string/_00_00_00"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="50sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/play_button"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/round_background"
+        android:backgroundTint="@color/light_purple"
+        android:text="@string/play"
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        tools:ignore="TextSizeCheck" />
+
+    <!-- Pause Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pause_button"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/round_background"
+        android:backgroundTint="@color/light_purple"
+        android:text="@string/pause"
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        tools:ignore="TextSizeCheck" />
+
+    <!-- Laps Remaining TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/laps_remaining"
+        android:textSize="55sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="250dp" />
+
+    <!-- Laps Count TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:id="@+id/laps_count"
+        android:textSize="100sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="175dp" />
+
+    <!-- Restart Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/restart_button"
+        android:layout_width="88dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/round_background"
+        android:backgroundTint="@color/light_purple"
+        android:text="@string/restart"
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        tools:ignore="TextSizeCheck" />
+
+    <!-- Configure Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/configure_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/round_background"
+        android:backgroundTint="@color/light_purple"
+        android:text="@string/configure"
+        android:textColor="@android:color/black"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/round_background"
+        android:backgroundTint="@color/light_purple"
+        android:text="@string/reset"
+        android:textColor="@android:color/black" />
+
+
+    <!-- Exit Button -->
+</RelativeLayout>

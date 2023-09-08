@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background for the entire Spinner -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Arrow icon -->
+    <item android:drawable="@drawable/arrow_icon"
+        android:gravity="end|center_vertical"
+        android:right="8dp" /> <!-- Adjust the right padding as needed -->
+</layer-list>

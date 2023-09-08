@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextLaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_laps"
+        android:textColorHint="#403532"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editTextLapTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_lap_time_in_seconds"
+        android:minHeight="48dp"
+        android:textColorHint="#403532"
+        tools:ignore="Autofill,TextFields" />
+
+
+
+</LinearLayout>
